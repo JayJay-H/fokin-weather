@@ -8,60 +8,60 @@ const weatherOptions = {
     Thunderstorm: {
         iconName: "weather-lightning",
         gradient: ["#373B44", "#4286f4"],
-        title: "Thunderstorm in the house",
-        subtitle: "Actually, outside of the house"
+        title: "온 집안에 천둥번개가 치네요!!",
+        subtitle: "사실 집 밖이긴 합니다"
       },
-      Drizzle: {
+    Drizzle: {
         iconName: "weather-hail",
         gradient: ["#89F7FE", "#66A6FF"],
-        title: "Drizzle",
-        subtitle: "Is like rain, but gay 🏳️‍🌈"
+        title: "보슬비가 내려요 헤어진 그대가 생각나네요",
+        subtitle: "노래 가사는 아니에요"
       },
-      Rain: {
+    Rain: {
         iconName: "weather-rainy",
         gradient: ["#00C6FB", "#005BEA"],
-        title: "Raining like a MF",
-        subtitle: "For more info look outside"
+        title: "비오는 거 진짜 싫지 않아요?",
+        subtitle: "우산 꼭 챙기세요!"
       },
-      Snow: {
+    Snow: {
         iconName: "weather-snowy",
         gradient: ["#7DE2FC", "#B9B6E5"],
-        title: "Cold as balls",
-        subtitle: "Do you want to build a snowman? Fuck no."
+        title: "눈이 와요 눈이 와!!!",
+        subtitle: "눈사람은 못만들거에요ㅋㅋ"
       },
-      Atmosphere: {
+    Atmosphere: {
         iconName: "weather-hail",
         gradient: ["#89F7FE", "#66A6FF"]
       },
-      Clear: {
+    Clear: {
         iconName: "weather-sunny",
         gradient: ["#FF7300", "#FEF253"],
-        title: "Sunny as fuck",
-        subtitle: "Go get your ass burnt"
+        title: "와 날씨 진짜 좋다!",
+        subtitle: "집 밖으로 한번 나가보는게 어때요?"
       },
-      Clouds: {
+    Clouds: {
         iconName: "weather-cloudy",
         gradient: ["#D7D2CC", "#304352"],
-        title: "Clouds",
-        subtitle: "I know, fucking boring"
+        title: "구름낀 날이에요",
+        subtitle: "집에서 드라마보면서 귤 먹는게 어떨까요?"
       },
-      Mist: {
+    Mist: {
         iconName: "weather-hail",
         gradient: ["#4DA0B0", "#D39D38"],
-        title: "Mist!",
-        subtitle: "It's like you have no glasses on."
+        title: "앞이 안 보일 정도로 안개가 꼈어요!!",
+        subtitle: "거짓말이지롱"
       },
-      Dust: {
+    Dust: {
         iconName: "weather-hail",
         gradient: ["#4DA0B0", "#D39D38"],
-        title: "Dusty",
-        subtitle: "Thanks a lot China 🖕🏻"
+        title: "어우 이 미세먼지좀 봐요!! 목이 칼칼해;;",
+        subtitle: "고마워요 중국 🖕🏻"
       },
-      Haze: {
+    Haze: {
         iconName: "weather-hail",
         gradient: ["#4DA0B0", "#D39D38"],
-        title: "Haze",
-        subtitle: "Just don't go outside."
+        title: "눈이 이상한 건가? 왜 뿌옇게 보이지?",
+        subtitle: "옅게 안개가 꼈답니다!"
       }
 };
 
