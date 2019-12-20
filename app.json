@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "Fokin Weather App",
-    "slug": "fokin-weather",
+    "name": "weather-app",
+    "slug": "weather-app",
     "privacy": "public",
     "sdkVersion": "36.0.0",
     "platforms": [
@@ -25,6 +25,8 @@
     ],
     "ios": {
       "supportsTablet": true
-    }
+    },
+    "description": "weather-app with react-native",
+    "githubUrl": "https://github.com/JayJay-H/fokin-weather"
   }
 }
