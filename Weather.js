@@ -4,12 +4,13 @@ import propTypes from "prop-types";
 import { MaterialCommunityIcons } from '@expo/vector-icons';
 import { LinearGradient } from "expo-linear-gradient";
 
+// 받아온 날씨와 관련된 아이콘과 설명이 들어있다.
 const weatherOptions = {
     Thunderstorm: {
-        iconName: "weather-lightning",
-        gradient: ["#373B44", "#4286f4"],
-        title: "온 집안에 천둥번개가 치네요!!",
-        subtitle: "사실 집 밖이긴 합니다"
+        iconName: "weather-lightning", // @expo/vector-icons에 있는 MaterialCommunityIcons중 weather-lightning
+        gradient: ["#373B44", "#4286f4"], // gradient를 위한 색깔, 앞의 색깔이 위쪽 색깔이고 뒤의 색깔이 아래쪽 색깔이 된다.
+        title: "온 집안에 천둥번개가 치네요!!", // 제목
+        subtitle: "사실 집 밖이긴 합니다" // 부제목
       },
     Drizzle: {
         iconName: "weather-hail",
@@ -67,12 +68,12 @@ const weatherOptions = {
 
 export default function Weather({temp, condition}){
     return (
-        <LinearGradient
-        colors={weatherOptions[condition].gradient}
+        <LinearGradient // 맨 바깥쪽을 LinearGradient로 감싼다.
+        colors={weatherOptions[condition].gradient} // weatherOptions[날씨].색깔들
         style={styles.container}
       >
         <StatusBar barStyle="light-content" />
-        <View style={styles.halfContainer}>
+        <View style={styles.halfContainer}> 
           <MaterialCommunityIcons
             size={96}
             name={weatherOptions[condition].iconName}

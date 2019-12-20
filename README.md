@@ -7,7 +7,7 @@ Learning React Native by Building a Foking Weather App
 - https://expo.github.io/vector-icons/
 
 
-# App.js 실행시 발생했던 오류
+# Expo 실행시 발생했던 오류
 `Expo fails to start the project: error Invalid regular expression: /(.*\\__fixtures__`
 라는 에러를 뱉었다.
 
